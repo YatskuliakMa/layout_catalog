@@ -1,3 +1,29 @@
+@import 'variables';
+@import 'blocks/card';
+@import 'blocks/stars';
+@import 'header';
+@import 'blocks/catalog';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 body {
   margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 1;
 }
