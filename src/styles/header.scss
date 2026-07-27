@@ -1,8 +1,3 @@
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -48,7 +43,7 @@ a {
     line-height: 60px;
     text-align: center;
     position: relative;
-    color: #060b35;
+    color: $main-accent-color;
     font-size: 12px;
     text-transform: uppercase;
     transition: color 300ms ease;
