@@ -30,7 +30,7 @@
     transition: color 300ms ease;
 
     .card:hover & {
-      color: #34568b;
+      color: $hover-color;
     }
   }
 
