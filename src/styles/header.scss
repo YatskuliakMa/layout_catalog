@@ -1,9 +1,11 @@
 .header {
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0 50px 4px;
+  padding: 0 50px;
+  box-sizing: border-box;
 
   &__logo-link {
     display: inline-flex;
@@ -20,6 +22,7 @@
 .nav {
   display: flex;
   align-items: center;
+  height: 60px;
 
   &__list {
     display: flex;
@@ -31,6 +34,7 @@
 
   &__item {
     margin-right: 20px;
+    position: relative;
 
     &:last-child {
       margin-right: 0;
@@ -38,13 +42,16 @@
   }
 
   &__link {
-    display: inline-block;
     height: 60px;
-    line-height: 60px;
+    display: inline-flex;
+    align-items: center;
     text-align: center;
     position: relative;
     color: $main-accent-color;
     font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    text-decoration: none;
     text-transform: uppercase;
     transition: color 300ms ease;
 

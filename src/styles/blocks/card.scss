@@ -1,5 +1,8 @@
 .card {
+  position: relative;
   width: 200px;
+  height: 408px;
+  box-sizing: border-box;
   padding: 32px 16px 16px;
   border: 1px solid $border-color;
   border-radius: 5px;
@@ -10,6 +13,7 @@
 
   &:hover {
     transform: scale(1.2);
+    z-index: 1;
   }
 
   &__image {
