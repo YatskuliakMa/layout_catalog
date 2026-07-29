@@ -1,4 +1,5 @@
 .card {
+  font-family: Roboto, sans-serif;
   position: relative;
   width: 200px;
   height: 408px;
@@ -11,6 +12,7 @@
   flex-direction: column;
   transition: transform 300ms ease;
   transform-origin: center;
+  will-change: transform;
 
   &:hover {
     transform: scale(1.2);
