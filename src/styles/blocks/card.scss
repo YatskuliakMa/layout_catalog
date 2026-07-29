@@ -12,6 +12,7 @@
   flex-direction: column;
   transition: transform 300ms ease;
   transform-origin: center;
+  backface-visibility: hidden;
 
   &:hover {
     transform: scale(1.2);
